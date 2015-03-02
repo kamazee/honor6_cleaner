@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+    <title>悬浮按钮</title>
+    <meta name='HandheldFriendly' content='True'>
+    <meta name='viewport' content='user-scalable=0,initial-scale=1.0,width=device-width,minimum-scale=1.0,maximum-scale=1.0'>
+    <meta http-equiv='cleartype' content='on'>
+    <link rel='stylesheet' href='../common_style/css/tips20.css'>
+	<script>
+		var themeColor = window.jsInterface.getSkinHexColor();
+		if(themeColor == "ffe05a6d"){
+			document.write("<link rel='stylesheet' href='../common_style/css/pink.css'>");
+		}
+		else if(themeColor == "ff9e7837"){
+			document.write("<link rel='stylesheet' href='../common_style/css/white.css'>");
+			
+		}
+		else if(themeColor == "ccdc7832"){
+			document.write("<link rel='stylesheet' href='../common_style/css/taste.css'>");
+		}
+		else{
+			document.write("<link rel='stylesheet' href='../common_style/css/defskin.css'>");
+		}
+	</script>
+</head>
+<body>
+	<a id="backLink" href="index.html" class="tap-act"></a>
+    <section id="reel">
+        <ul>
+           	<li>
+            	<h2 class="page-title">展开悬浮菜单</h2>
+	            <section class="view-base m111">
+                    <aside class="fbox p11_11">点击展开悬浮按钮</aside>
+                    <article class="page-desc p11_12">在设置中启用悬浮按钮，按钮将显示在大部分界面，并可以拖动至屏幕左侧或右侧。点击展开悬浮按钮，显示常用功能，包括返回、主页、同屏多窗、锁屏和一键优化。</article>
+                </section>
+            </li>
+        	<li>
+            	<h2 class="page-title">转动悬浮菜单</h2>
+            	<section class="view-base m112">
+                	<aside class="fbox p11_21">滑动以旋转菜单</aside>
+                	<article class="page-desc p11_22">点击同屏多窗按钮进入二级菜单，滑动该菜单，可以滚动查看所有支持的悬浮窗口，这些窗口包括音乐、视频、短信、备忘录、计算器、日历。</article>
+                </section>
+            </li>
+
+        </ul>
+    </section>
+    <nav class="nav-bar">
+        <ul id="modNav">
+            <li class="cur">
+                <span>1</span>
+            </li>
+            <li>
+                <span>2</span>
+            </li>
+        </ul>
+    </nav>       
+
+<script src="../common_style/tips20.js"></script>
+</body>
+</html>

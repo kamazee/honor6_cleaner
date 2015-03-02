@@ -1,0 +1,188 @@
+ro.config.ringtone=Honor.ogg
+ro.config.ringtone2=Huawei_Tune.ogg
+#DTS2013112101585 guiwen/gkf66765 20131127 begin
+ro.config.alarm_alert=Creamy.ogg
+#DTS2013112101585 guiwen/gkf66765 20131127 end
+ro.config.messagesound=Whisper.ogg
+ro.config.emailsound=Letter.ogg
+ro.config.calendarsound=Step.ogg
+#DTS2014041007039 20140416 x00227495 begin
+ro.config.notification_sound=Bongo.ogg
+#DTS2014041007039 20140416 x00227495 end
+ro.config.hw_incall_report_on=true
+#DTS2014040802250 dingtongzhu 218642 begin
+ro.config.hw_browser_operator=4
+#DTS2014040802250 dingtongzhu 218642 end
+#DTS2013012908354 maoxinwei 84002324 begin
+ro.product.hardwareversion=HL1UH60L02M
+#DTS2013012908354 maoxinwei 84002324 end
+ro.config.hw_opta=630
+ro.config.hw_optb=156
+ro.config.autoconnect.swich=true
+ro.config.auth.timeout=true
+#DTS2013042207805 maoxinwei 84002324 begin
+ro.modem.type=sprd
+#DTS2013042207805 maoxinwei 84002324 end
+ro.product.locale.language=en
+ro.product.locale.region=US
+ro.product.manufacturer=HUAWEI
+ro.config.hw_fake_ecc_list=110,120,122,999,119
+ro.config.hw_ecclist_withcard=+112
+ro.config.hw_ecclist_nocard=+120,+122
+ro.config.hw_globalEcc=false
+ro.huawei.cust.toolbox_airwifi=true
+ro.gsm.systemui.carriericon=true
+ro.systemui.mobileinoutextra=true
+ro.config.hw_use_browser_ua=http://wap1.huawei.com/uaprof/HUAWEI_H60_L02_UAProfile.xml
+ro.config.show2846=true
+ro.config.cmdm_apn_not_display=true
+ro.com.google.clientidbase=android-huawei
+ro.config.hw_voicerecord=true
+ro.config.hw_wifi_frequency=0
+persist.sys.alarm.enable.uhb=1
+#DTS2012123103332 yanhuaxing 00227481 begin
+ro.config.cmccCustmccmnc = true
+#DTS2012123103332 yanhuaxing 00227481 end
+#DTS2013012103283 xiayuan 00184050 begin
+ro.config.hw_RemindWifiToPdp=true
+#DTS2013012103283 xiayuan 00184050 end
+#DTS2013012308953 wangyanan 00217294 begin
+ro.product.only_2Gnetwork=false
+#DTS2013012308953 wangyanan 00217294 end
+#DTS2013012105120 dongwei 00208539 begin
+ro.config.networkmodeset=true
+#DTS2013012105120 dongwei 00208539 end
+#DTS2012111506033 zhangjinhua 00185816 begin
+ro.product.alert_time=true
+#DTS2012111506033 zhangjinhua 00185816 end
+ro.config.hw_support_callbar=true
+#DTS2013092000656 lizhe00208516 20130920 begin
+ro.config.hw_allow_rs_mms=true
+#DTS2013092000656 lizhe00208516 20130920 end
+#DTS2014022007001 z00169648 20140220 delete
+ro.config.hw_virtual_key=true
+ro.config.hide_sipcall=true
+#DTS2013032507526 dongwei 20130325 begin
+ro.product.playreq.range=true
+#DTS2013032507526 dongwei 20130325 end
+#DTS2013051703989 dongwei 20130517 begin
+ro.product.cmcc.rtspcon=true
+#DTS2013051703989 dongwei 20130517 end
+#DTS2013031207001 zhangchaofan 00217263 begin
+ro.config.delay_alarm_in_call=true
+#DTS2013031207001 zhangchaofan 00217263 end
+#DTS2012071303434 x00216333 20130311 begin
+ro.product.streaming.custom=true
+#DTS2012071303434 x00216333 20130311 end
+
+#DTS2013022201145 m84002324 begin
+ro.config.cmcc_forbidden_net=true
+#DTS2013022201145 m84002324 end
+#DTS2014022007001 z00169648 20140220 delete
+#DTS2013032803979 w00182909 20130329 begin
+ro.config.ds_verbose_log_on=true
+#DTS2013032803979 w00182909 20130329 end
+#DTS2014022007001 z00169648 20140220 delete
+#DTS2013022603938 l00216322 20130226 begin
+ro.config.hw_glovemode_enabled=1
+#DTS2013022603938 l00216322 20130226 end
+ro.config.sprd_refresh_rsp=true
+#DTS2013040202464  y00227481 20130402 begin
+ro.config.addAct=false
+#DTS2013040202464  y00227481 20130402 end
+#DTS2013102409617 y00225789 20131024 NSD:cursor begin
+#DTS2013110506887 y00225789 20131105 begin
+#DTS2013110606536 y00225789 20131106 begin
+sys.nsd.support=2
+#DTS2013110606536 y00225789 20131106 end
+#DTS2013110506887 y00225789 20131105 end
+#DTS2013102409617 y00225789 20131024 NSD:cursor end
+#DTS2013041500706 x00216333 20130415 begin
+ro.product.canplaypause=true
+#DTS2013041500706 x00216333 20130415 end
+#DTS2013042705581 00217057 20130427 begin
+ro.config.hw_cmcc_emerg_invisi=1
+#DTS2013042705581 00217057 20130427 end
+#DTS2013050401315 z00176999 20130507 begin
+ro.config.delay_send_signal=true
+#DTS2013050401315 z00176999 20130507 end
+#DTS2013050200073 z00176999 20130507 begin
+ro.config.updatelocation=true
+#DTS2013050200073 z00176999 20130507 end
+#DTS2013051506204 00217057 20130515 begin
+ro.config.RoamingNetwork=true
+#DTS2013051506204 00217057 20130515 end
+ro.config.callwait_vibrator=true
+# DTS2013051708985 zhangwenyang 00208515 20130520 begin
+ro.config.callrecord.enabled=1
+# DTS2013051708985 zhangwenyang 00208515 20130520 end
+# DTS2013060801706 w00182909 20130608 begin
+ro.config.browser_def_hw_nav=true
+ro.config.browser_hw_nav_switch=true
+# DTS2013060801706 w00182909 20130608 end
+# DTS2013081700393 y00184280 20130904 begin
+ro.config.hw_accesscontrol=true
+# DTS2013081700393 y00184280 20130904 end
+ro.config.hw_smartcardservice=true
+#DTS2013080807083 z00220246 begin
+ro.config.hw_ReduceSAR=false
+#DTS2013080807083 z00220246 end
+#DTS2013072302544 z00193936 begin
+ro.config.hw_ipv6_support=true
+#DTS2013072302544 z00193936 end
+#DTS2013083003379 z00217263 begin
+ro.config.hw_activity_state=true
+#DTS2013083003379 z00217263 end
+# DTS2013101105238 y00193929 20131011 begin
+#DTS2013121304212 pengke KF74703 20140111 begin
+#delete one line,move to system.prop
+#DTS2013121304212 pengke KF74703 20140111 end
+# DTS2013101105238 y00193929 20131011 end
+ro.config.hw_glovemode_enabled=1
+# DTS2013103009540 jiangyuwei 00250028 20131105 Begin
+ro.config.hw_blacklist=true
+# DTS2013103009540 jiangyuwei 00250028 20131105 End
+# DTS2013102507331 g00250027 20131109 begin
+ro.config.hw_novoicesignal=true
+# DTS2013102507331 g00250027 20131109 end
+#DTS2013101703713 00217057 begin
+ro.config.hw_showTestInfo=false
+#DTS2013101703713 00217057 end
+#DTS2013121906161 d00208539 20131219 begin
+ro.product.cucc.rtsplive=true
+#DTS2013121906161 d00208539 20131219 end
+#DTS2013112608966 x00186492 20131203 begin
+hw.lcd.density.scale=500
+#DTS2013112608966 x00186492 20131203 end
+ro.build.hide=false
+ro.build.hide.matchers=H60-L01;H60-L02;H60-L03;H60-L11;H60-L12;Huawei;Mali-T624
+ro.build.hide.replacements=H300;H300;H300;H300;H300;Unknown;Unknown
+#DTS2013121603412 w00190963 20131219 begin
+ro.config.hw_upload_cp_log=true
+#DTS2013121603412 w00190963 20131219 end
+ro.hwcamera.sound.muteable=true
+#DTS2014022109751 00217057 20140222 begin
+ro.config.launcher_matchcard=0
+#DTS2014022109751 00217057 20140222 end
+# DTS2014040801150 g00250027 20140409 begin
+#DTS2014091601310 zhuyaling KF65158 begin 20140916 deleted
+#ro.huawei.dsds.signalbarcust=true
+#DTS2014091601310 zhuyaling KF65158 end 20140916 deleted
+# DTS2014040801150 g00250027 20140409 end
+#DTS2014050605246 jiangxiaodong 20140509 start
+ro.config.hw_simpleui_enable = 1
+#DTS2014050605246 jiangxiaodong 20140509 end
+ro.config.app_big_icon_size=180
+ro.dual.sim.phone=true
+#DTS2014092005791 begin
+ro.config.hw_sim2airplane=true
+#DTS2014092005791 end
+#DTS2014092900003 g00212954 20140929 start
+ro.config.clear_launcher_data=true
+#DTS2014092900003 g00212954 20140929 end
+#DTS2014101600377 zhaowei 00195747 20141022 begin
+ro.telephony.default_network=9
+#DTS2014101600377 zhaowei 00195747 20141022 end
+ro.product.CustCVersion=C00
+
+ro.product.CustDVersion=D310

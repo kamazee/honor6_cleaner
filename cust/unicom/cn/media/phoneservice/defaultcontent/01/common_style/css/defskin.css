@@ -1,0 +1,10 @@
+.tap-act{-webkit-tap-highlight-color: rgba(10,157,205,0.6);}
+.page-title{color:#28A9D9;border-color:#25A8D9;}
+#modNav span{background-image:url(img/dot15.png);}
+@media only screen and (-webkit-device-pixel-ratio : 2),
+screen and (min-width: 475px) and (-webkit-device-pixel-ratio : 1.5) {
+	#modNav span{background-image:url(img/dot20.png);}
+}
+@media only screen and (-webkit-device-pixel-ratio : 3){
+	#modNav span{background-image:url(img/dot30.png);}
+}

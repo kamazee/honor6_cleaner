@@ -1,0 +1,188 @@
+#jd-header table {margin: 0 0 1em 1em;}
+body { margin:0; padding:0;}
+html, body{overflow:hidden;}/* 关闭ie滑动块 */
+/*-------------------------- Head --------------------------*/
+#header {
+  height:85px;display:block;
+  position:relative;
+  z-index:100;
+  min-width:675px; /* min width for the tabs, before they wrap */
+  padding:0px;
+  border-bottom:3px solid #aaa;/* min #94b922 the tabs, before they wrap */
+}
+#headerLeft{float:left;padding:20px 10px 10px 15px;}
+#headerRight {float:right;text-align:right;}
+/*-------------------------- SEARCH --------------------------*/
+#search { height:50px;width:250px;margin:20px 10px 0 10px;}/*搜索最外面的宽度*/
+#search td{border:1px solid #ccc; padding:6px 2px;text-align:left;vertical-align:top;background-color:inherit;}
+
+#search-button{display:inline;}
+#searchForm{}
+#searchForm td{border: 0px solid #000;}
+#search_filtered_div {
+  position:absolute;
+  margin-top:-1px;width:200px;margin:0px 0px 0px 0px;width:201px\9;margin:18px 0px 0px -209px\9;_width:200px;_margin:20px 0px 0px -208px;
+  z-index:101;
+  border:1px solid #BCCDF0;
+  background-color:#fff;
+}
+#searchTxt { width:100px;}
+.gsc-control form.gsc-search-box { display : none;}
+table.gsc-search-box { margin:6px 0 0 0; border-collapse:collapse;}
+td.gsc-search-button { text-align:left;padding:0px;margin:0px;vertical-align:top;cursor:pointer;}
+#search-button { margin:0 0 0 2px;}
+#search_filtered { min-width:100%;}
+#search_filtered td{background-color:#fff;border-bottom:0px solid #669999;}/*搜索框行间距*/
+#search_filtered .jd-selected{background-color:#4375a7;cursor:pointer;}
+#search_filtered .jd-selected,
+#search_filtered .jd-selected a {color:#fff;}
+
+/*--------------------------下面整体宽高--------------------------*/
+#body-content { margin:0;position:relative;width:100%;height:100%;}
+
+/*--------------------------左侧目录--------------------------*/
+#devdoc-nav {overflow:auto; width:100%;}
+#side-nav ul {list-style:none;margin-left:1em;}
+#side-nav li {white-space:nowrap;zoom:1;line-height:100%;_line-height:110%;
+margin-left:-35px;margin-left:0px\9;*margin-left:0px;_margin-left:10px;}
+#side-nav .selected{ background-color: #435a6e;color: #fff;}
+#side-nav .selected a{color: #fff;text-decoration:none;}
+#side-nav strong {display:block;}
+.menli{background-color:#4375a7;color:#fff;font-weight:bold;display:block;padding:1px 0;}
+
+/*--------------------------添加控制内容左右边界--------------------------*/
+#jd-content{clear: both;padding: 0px 10px 20px 10px;}
+/* 搜索结果标头*/
+#jd-header {background-color:#E2E2E2;margin:10px 10px 0px 10px;padding:0px;}
+#table_div {padding:0px 10px;}
+
+/* tab highlighting */
+.guide-header{ margin:10px 0px;display:block;}
+td.gsc-input { padding:0 10px; width:200px; vertical-align:middle;}
+input.gsc-input {border:1px solid #BCCDF0; width:200px; padding-left:0px;}
+.gsc-webResult div.gs-visibleUrl-short,
+table.gsc-branding,
+.gsc-clear-button,
+.gsc-cursor-box .gsc-cursor div.gsc-cursor-page,
+.gsc-cursor-box .gsc-trailing-more-results a.gsc-trailing-more-results,
+.gsc-resultsHeader {display: none;}
+.no-display {display: none;}
+
+.jd-autocomplete {font-family: Arial, sans-serif;padding-left: 6px;padding-right: 6px;padding-top: 1px;padding-bottom: 1px;
+  font-size: 0.81em;border: none;margin: 0;line-height: 1.05em;}
+
+.show-row{display: table-row;}
+.hide-row{display: hidden;}
+#doc-content .gsc-tabHeader{padding: 3px 0px; position:relative;}
+#doc-content .gsc-tabHeader.gsc-tabhActive {border-top: 2px solid #94B922;}
+
+/* 文档内容*/
+#doc-content { overflow:auto; }
+
+/* DOC CLASSES */
+#jd-content .small-header { color:#000; border:none; position:inherit;}
+
+
+/* BEGIN image and caption styles (originally for UI Guidelines docs) 框架 */
+/* INLAY 180 COPY and 240PX EXTENSION */
+/* modified to 43px so that all browsers eliminate the package panel h-scroll */
+.g-tpl-240 .g-unit,
+.g-unit .g-tpl-240 .g-unit,
+.g-unit .g-unit .g-tpl-240 .g-unit { display: block; margin: 0 0 0 243px; width: auto; float: none;}/*243左侧树的宽度*/
+.g-unit .g-unit .g-tpl-240 .g-first,
+.g-unit .g-tpl-240 .g-first,
+.g-tpl-240 .g-first { display: block; margin: 0; width: 243px;_width:263px;  float: left;}
+/* 240px alt */
+.g-tpl-240-alt .g-unit,
+.g-unit .g-tpl-240-alt .g-unit,
+.g-unit .g-unit .g-tpl-240-alt .g-unit { display: block; margin: 0 243px 0 0; width: auto; float: none;}
+.g-unit .g-unit .g-tpl-240-alt .g-first,
+.g-unit .g-tpl-240-alt .g-first,
+.g-tpl-240-alt .g-first { display: block;margin: 0;width: 243px;float: right;}
+
+/* 200px */
+.g-tpl-200 .g-unit,
+.g-unit .g-tpl-200 .g-unit,
+.g-unit .g-unit .g-tpl-200 .g-unit {display: block;margin: 0 0 0 200px;width: auto;float: none;}
+.g-unit .g-unit .g-tpl-200 .g-first,
+.g-unit .g-tpl-200 .g-first,
+.g-tpl-200 .g-first { display: block; margin: 0; width: 200px; float: left;}
+/* 200px alt */
+.g-tpl-200-alt .g-unit,
+.g-unit .g-tpl-200-alt .g-unit,
+.g-unit .g-unit .g-tpl-200-alt .g-unit { display: block; margin: 0 200px 0 0; width: auto; float: none;}
+.g-unit .g-unit .g-tpl-200-alt .g-first,
+.g-unit .g-tpl-200-alt .g-first,
+.g-tpl-200-alt .g-first { display: block; margin: 0; width: 200px; float: right;}
+
+/* 190px */
+.g-tpl-190 .g-unit,
+.g-unit .g-tpl-190 .g-unit,
+.g-unit .g-unit .g-tpl-190 .g-unit { display: block; margin: 0 0 0 190px; width: auto; float: none;}
+.g-unit .g-unit .g-tpl-190 .g-first,
+.g-unit .g-tpl-190 .g-first,
+.g-tpl-190 .g-first { display: block; margin: 0; width: 190px; float: left;}
+/* 190px alt */
+.g-tpl-190-alt .g-unit,
+.g-unit .g-tpl-190-alt .g-unit,
+.g-unit .g-unit .g-tpl-190-alt .g-unit { display: block; margin: 0 190px 0 0; width: auto; float: none;}
+.g-unit .g-unit .g-tpl-190-alt .g-first,
+.g-unit .g-tpl-190-alt .g-first,
+.g-tpl-190-alt .g-first { display: block; margin: 0; width: 190px; float: right;}
+
+/* 180px */
+.g-tpl-180 .g-unit,
+.g-unit .g-tpl-180 .g-unit,
+.g-unit .g-unit .g-tpl-180 .g-unit { display: block; margin: 0 0 0 180px; width: auto; float: none;}
+.g-unit .g-unit .g-tpl-180 .g-first,
+.g-unit .g-tpl-180 .g-first,
+.g-tpl-180 .g-first {display: block;margin: 0;width: 180px;float: left;}
+/* 180px alt */
+.g-tpl-180-alt .g-unit,
+.g-unit .g-tpl-180-alt .g-unit,
+.g-unit .g-unit .g-tpl-180-alt .g-unit { display: block; margin: 0 180px 0 0; width: auto;float: none;}
+.g-unit .g-unit .g-tpl-180-alt .g-first,
+.g-unit .g-tpl-180-alt .g-first,
+.g-tpl-180-alt .g-first { display: block; margin: 0; width: 180px; float: right;}
+
+/* JQUERY RESIZABLE STYLES */
+.ui-resizable { position: relative; }
+.ui-resizable-handle { position: absolute; display: none; font-size: 0.1px; z-index:10;}
+.ui-resizable .ui-resizable-handle { display: block; }
+body .ui-resizable-disabled .ui-resizable-handle { display: none; }
+body .ui-resizable-autohide .ui-resizable-handle { display: none; }
+.ui-resizable-s { cursor: s-resize; height: 6px;width: 100%;bottom:0px;left: 0px;background: transparent url("resizable-s2.gif") repeat scroll center top; }
+.ui-resizable-e { cursor: e-resize; width: 6px;right:-6px;top:0px;height: 100%;background: transparent url("resizable-e2.gif") repeat scroll right center; }
+
+
+
+/* -------------------------------------- */
+#search table { border-collapse:collapse; border-width:0; empty-cells:show;}
+#search_autocomplete{color:#aaa;}
+#leftSearchControl .gsc-resultsHeader div.gsc-results-selector {display:none;}
+#leftSearchControl .gsc-resultsRoot {padding-top:6px;}
+#leftSearchControl div.gs-visibleUrl-long {display:block;color:#006699;}
+#leftSearchControl a,
+#leftSearchControl a b { color:#006699;}
+/*IE6*/
+* html #app-list a { zoom: 1; margin:0 24px 0 15px;}
+* html #list-clip { width:430px !important;}
+/* IE6 can't position fixed */
+* html div#naMessage div { position:absolute; }
+/* XXX I would really like to apply font-size: 9pt only if var/samp
+   is NOT inside of a .jd-descr div. */
+div#jd-searchbox table.jd-autocomplete-table-hidden { display: none;}
+div#jd-searchbox table.jd-autocomplete-table-showing{z-index:10;border:1px solid #3366cc;position:relative;top:-14px;left:5px;background-color: white;}
+div#jd-searchbox td.jd-autocomplete {border: none;margin: 0;}
+div#jd-searchbox td.jd-selected {background-color: #E5F1E0;}
+div#jd-searchbox td.jd-linktype {color: #999999;}
+div#jd-content .jd-expando-trigger {border: none;}
+div#jd-build-id {width: 100%;}
+@media print {
+    #jd-searchbox, .jd-nav {
+        display: none;
+    }
+    div#jd-content {
+        margin-top: 0px;
+    }
+}
